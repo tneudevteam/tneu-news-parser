@@ -1,0 +1,32 @@
+{
+  "name": "@tneu/scores-parser",
+  "version": "1.0.0",
+  "description": "Parser for news at tneu.edu.ua",
+  "main": "index.js",
+  "scripts": {
+    "coverage": "./node_modules/istanbul/lib/cli.js cover ./node_modules/mocha/bin/_mocha test.js",
+    "lint": "eslint . --format=node_modules/eslint-formatter-pretty",
+    "test": "./node_modules/mocha/bin/mocha test.js && npm run coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/vladgolubev/tneu-news-parser.git"
+  },
+  "author": "Vlad Holubiev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vladgolubev/tneu-news-parser/issues"
+  },
+  "homepage": "https://github.com/vladgolubev/tneu-news-parser#readme",
+  "devDependencies": {
+    "eslint": "^3.5.0",
+    "eslint-config-google": "^0.6.0",
+    "eslint-formatter-pretty": "^0.3.1",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.0.2"
+  },
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "lodash": "^4.15.0"
+  }
+}
