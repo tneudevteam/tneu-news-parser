@@ -1,12 +1,12 @@
 {
-  "name": "@tneu/scores-parser",
+  "name": "@tneu/news-parser",
   "version": "1.0.0",
   "description": "Parser for news at tneu.edu.ua",
   "main": "index.js",
   "scripts": {
-    "coverage": "./node_modules/istanbul/lib/cli.js cover ./node_modules/mocha/bin/_mocha test.js",
-    "lint": "eslint . --format=node_modules/eslint-formatter-pretty",
-    "test": "./node_modules/mocha/bin/mocha test.js && npm run coverage"
+    "coverage": "./node_modules/istanbul/lib/cli.js cover ./node_modules/mocha/bin/_mocha 'test/**/*.test.js'",
+    "lint": "eslint . --fix --format=node_modules/eslint-formatter-pretty",
+    "test": "./node_modules/mocha/bin/mocha 'test/**/*.test.js'"
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/vladgolubev/tneu-news-parser#readme",
   "devDependencies": {
+    "chai": "^3.5.0",
     "eslint": "^3.5.0",
     "eslint-config-google": "^0.6.0",
     "eslint-formatter-pretty": "^0.3.1",
@@ -27,6 +28,12 @@
   },
   "dependencies": {
     "cheerio": "^0.22.0",
-    "lodash": "^4.15.0"
-  }
+    "moment": "^2.15.0"
+  },
+  "title": "На кафедрі фінансів імені...",
+  "date": "Sun Sep 18 2016 19:31:25 GMT+0300 (EEST)",
+  "topic": "Міжнародні програми",
+  "imageLink": "http://www.tneu.edu.ua/uploads/posts/2016-09/....",
+  "description": "14 вересня 2016 р. студенти та викладачі кафедри фінансів...",
+  "readMoreLink": "http://www.tneu.edu.ua/news/9678-na-kafedri...."
 }
