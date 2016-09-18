@@ -15,7 +15,7 @@ $ npm install @tneu/news-parser --save
 ```javascript
 
 const got = require('got');
-const NewsParser = require('@tneu/news-parser');
+const NewsParser = require('tneu-news-parser');
 
 // Parse article snippets
 got('http://www.tneu.edu.ua/news/page/1')
