@@ -1,6 +1,6 @@
 {
   "name": "tneu-news-parser",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Parse news articles at tneu.edu.ua",
   "main": "index.js",
   "scripts": {
