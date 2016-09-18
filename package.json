@@ -1,7 +1,7 @@
 {
   "name": "tneu-news-parser",
   "version": "1.0.1",
-  "description": "14 вересня 2016 р. студенти та викладачі кафедри фінансів...",
+  "description": "Parse news articles at tneu.edu.ua",
   "main": "index.js",
   "scripts": {
     "coverage": "./node_modules/istanbul/lib/cli.js cover ./node_modules/mocha/bin/_mocha 'test/**/*.test.js'",
