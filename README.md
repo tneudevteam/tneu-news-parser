@@ -11,7 +11,7 @@
 Ensure you have [Node.js](https://nodejs.org) version 4 or higher installed. Then run the following:
 
 ```
-$ npm install @tneu/news-parser --save
+$ npm install tneu-news-parser --save
 ```
 
 ## Usage
