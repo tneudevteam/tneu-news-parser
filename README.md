@@ -2,6 +2,9 @@
 
 >  Parse news articles at [tneu.edu.ua](http://www.tneu.edu.ua/news/)
 
+[![Build Status](https://travis-ci.org/vladgolubev/tneu-news-parser.svg?branch=master)](https://travis-ci.org/vladgolubev/tneu-news-parser)
+
+
 ## Install
 
 Ensure you have [Node.js](https://nodejs.org) version 4 or higher installed. Then run the following:
