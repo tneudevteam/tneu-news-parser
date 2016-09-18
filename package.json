@@ -1,6 +1,6 @@
 {
   "name": "tneu-news-parser",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "14 вересня 2016 р. студенти та викладачі кафедри фінансів...",
   "main": "index.js",
   "scripts": {
