@@ -4,7 +4,7 @@
 
 [![npm](https://img.shields.io/npm/v/tneu-news-parser.svg?maxAge=2592000)](https://www.npmjs.com/package/tneu-news-parser)
 [![Build Status](https://travis-ci.org/vladgolubev/tneu-news-parser.svg?branch=master)](https://travis-ci.org/vladgolubev/tneu-news-parser)
-
+[![Coverage Status](https://coveralls.io/repos/github/vladgolubev/tneu-news-parser/badge.svg?branch=master)](https://coveralls.io/github/vladgolubev/tneu-news-parser?branch=master)
 
 ## Install
 
