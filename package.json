@@ -1,7 +1,7 @@
 {
   "name": "@tneu/news-parser",
-  "version": "1.0.0",
-  "description": "Parser for news at tneu.edu.ua",
+  "version": "1.0.1",
+  "description": "14 вересня 2016 р. студенти та викладачі кафедри фінансів...",
   "main": "index.js",
   "scripts": {
     "coverage": "./node_modules/istanbul/lib/cli.js cover ./node_modules/mocha/bin/_mocha 'test/**/*.test.js'",
@@ -34,6 +34,5 @@
   "date": "Sun Sep 18 2016 19:31:25 GMT+0300 (EEST)",
   "topic": "Міжнародні програми",
   "imageLink": "http://www.tneu.edu.ua/uploads/posts/2016-09/....",
-  "description": "14 вересня 2016 р. студенти та викладачі кафедри фінансів...",
   "readMoreLink": "http://www.tneu.edu.ua/news/9678-na-kafedri...."
 }
