@@ -28,6 +28,7 @@
   },
   "dependencies": {
     "cheerio": "^0.22.0",
-    "moment": "^2.15.0"
+    "moment": "^2.15.0",
+    "redent": "^2.0.0"
   }
 }
