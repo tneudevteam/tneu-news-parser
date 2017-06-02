@@ -70,7 +70,7 @@ got('http://www.tneu.edu.ua/news/9671-naukovo-praktychne-zabezpechennia.html')
 Used: chai, mocha
 
 ```
-$ npm test
+$ npm t
 ```
 
 ### Coverage
