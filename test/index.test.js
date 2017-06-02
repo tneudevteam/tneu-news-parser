@@ -30,7 +30,6 @@ describe('News Parser', function() {
   });
 
   it('should return 15 article snippets', function() {
-    this.slow(100);
     const results = index.parseArticleSnippets(testHtml);
     expect(results.length).to.equal(15);
   });

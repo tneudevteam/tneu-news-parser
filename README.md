@@ -65,26 +65,6 @@ got('http://www.tneu.edu.ua/news/9671-naukovo-praktychne-zabezpechennia.html')
 
 ## Development
 
-### Tests
-
-Used: chai, mocha
-
-```
-$ npm t
-```
-
-### Coverage
-
-Used: istanbul
-
-```
-$ npm run coverage
-```
-
-### Linting
-
-Used: eslint, eslint-config-google
-
-```
-$ npm run lint
-```
+* `npm t`
+* `npm run coverage`
+* `npm run lint`

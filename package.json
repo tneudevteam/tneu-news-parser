@@ -4,9 +4,9 @@
   "description": "Parse news articles at tneu.edu.ua",
   "main": "index.js",
   "scripts": {
-    "coverage": "./node_modules/istanbul/lib/cli.js cover ./node_modules/mocha/bin/_mocha 'test/**/*.test.js'",
+    "coverage": "jest --coverage",
     "lint": "eslint . --fix --format=node_modules/eslint-formatter-pretty",
-    "test": "./node_modules/mocha/bin/mocha 'test/**/*.test.js'"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -19,17 +19,20 @@
   },
   "homepage": "https://github.com/vladgolubev/tneu-news-parser#readme",
   "devDependencies": {
+    "babel-jest": "^20.0.3",
     "chai": "^4.0.1",
     "eslint": "^3.5.0",
-    "eslint-config-google": "^0.6.0",
+    "eslint-config-google": "0.6.0",
     "eslint-formatter-pretty": "^1.1.0",
-    "istanbul": "^0.4.5",
-    "mocha": "^3.0.2"
+    "jest": "^20.0.4"
   },
   "dependencies": {
     "cheerio": "^1.0.0-rc.1",
     "condense-whitespace": "^1.0.0",
     "moment": "^2.15.0",
     "normalize-newline": "^3.0.0"
+  },
+  "jest": {
+    "testEnvironment": "node"
   }
 }
