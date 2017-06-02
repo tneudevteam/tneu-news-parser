@@ -10,7 +10,7 @@ module.exports = function() {
       'test/**/*.test.js'
     ],
 
-    testFramework: 'mocha',
+    testFramework: 'jest',
 
     env: {
       type: 'node'
